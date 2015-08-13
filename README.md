@@ -13,14 +13,18 @@ cd portland-parks-calendar
 npm start
 ```
 
-Navigate to http://localhost:8001/parks/
+- Navigate to [http://localhost:8001/parks/](http://localhost:8001/parks/)
+
+- Click on `Summer Free For All - Movies, Concerts & Playgrounds in the Park`
 
 ## Implementation Details 
 
 This tool is implemented as a proxy server based on
-[Prosthetic](https://github.com/stamen/prosthetic/), which injects code into
-Portland Parks websites so that an interactive calender is shown in addition to
-the event listing.
+[Prosthetic](https://github.com/stamen/prosthetic/), which allows us to 
+easily inject code into websites.  The proxy is hard-coded to point to 
+[PortlandOregon.gov](http://portlandoregon.gov), and injects HTML, JavaScript 
+and CSS so that an interactive calender is shown in addition to the event 
+listing.
 
-If interested, this can make this into a GreaseMonkey script or something, for
+If interested, this can be made into a GreaseMonkey script or something, for
 easier use without having to run a proxy server.
