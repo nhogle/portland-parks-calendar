@@ -5,6 +5,7 @@ interactive event calendar format.  This was motivated by frustration with
 Portland Parks' existing website, which has a listing of events by park and by
 day of week, which is difficult to follow.
 
+![screenshot](https://cloud.githubusercontent.com/assets/149423/9261255/8bfc3a30-41c1-11e5-98f2-5fb101aa8e30.png)
 
 ## Usage
 ```console
