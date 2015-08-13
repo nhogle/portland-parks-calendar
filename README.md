@@ -14,8 +14,9 @@ npm start
 ```
 
 - Navigate to [http://localhost:8001/parks/](http://localhost:8001/parks/)
-
 - Click on `Summer Free For All - Movies, Concerts & Playgrounds in the Park`
+- Click on `Concerts in the Park` or `Movies in the Park`
+- Events will now be displayed in a more user-friendly calendar on the top of the page.
 
 ## Implementation Details 
 
