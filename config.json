@@ -1,0 +1,10 @@
+{
+  "proxy": "http://portlandoregon.gov",
+  "static": "/hax0red:.",
+  "ops": [
+    {
+      "file": "injection.html"
+    }
+  ]
+}
+

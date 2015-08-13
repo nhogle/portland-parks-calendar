@@ -1,0 +1,26 @@
+{
+  "name": "portland-parks-calendar",
+  "version": "0.1.0",
+  "description": "Proxy Node.js server to show an event calendar in Portland Parks and Recreation web pages",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "prosthetic -c config.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-nhogle:nhogle/portland-parks-calendar"
+  },
+  "keywords": [
+    "portland",
+    "oregon",
+    "parks",
+    "event",
+    "events",
+    "calendar"
+  ],
+  "author": "Nick Hogle",
+  "license": "ISC",
+  "dependencies": {
+    "prosthetic": "git://github.com/stamen/prosthetic.git#97c6e1b3723d901b2005"
+  }
+}
